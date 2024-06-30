@@ -2,13 +2,6 @@ import { footerLinks } from "@/constants";
 
 import Image from "next/image";
 
-const TestFadeIn = () => {
-  return (
-    <div className="animate-fadeIn p-4 bg-gray-800 text-white">
-      This is a fade-in test
-    </div>
-  );
-};
 
 
 const Footer = () => {
@@ -18,10 +11,19 @@ const Footer = () => {
         <div className=" w-full">
           <div className="flex flex-col xl:mt-6 justify-center items-center text-black gap-6">
             <h1 className="text-xl font-black">join our newsletter</h1>
-            <p className=" text-md text-center">You can easily receive exclusive news by subscribing to our newsletter</p>
-            <div className="bg-white rounded-full flex justify-between px-3 py-2 items-center w-full">
-              <input className='ml-2 text-sm text-black' type="text" placeholder="enter your address" />
-              <button className="rounded-full text-sm bg-primary-100 px-6 py-2 ">suscribe</button>
+            <p className=" text-md text-center">
+              You can easily receive exclusive news by subscribing to our
+              newsletter
+            </p>
+            <div className="bg-white rounded-full flex flex-wrap sm:flex-nowrap justify-between px-3 py-2 items-center w-full">
+              <input
+                className="flex-grow ml-2 text-sm text-black"
+                type="text"
+                placeholder="enter your address"
+              />
+              <button className="mt-2 sm:mt-0 rounded-full text-sm bg-primary-100 px-6 py-2">
+                subscribe
+              </button>
             </div>
           </div>
         </div>
@@ -52,8 +54,12 @@ const Footer = () => {
                         className="mt-3 flex items-center font-montserrat text-base leading-normal text-white transition-transform transform hover:scale-105"
                         key={link.name}
                       >
-                        {link.icon && <link.icon className="w-5 h-5 mr-2 text-primary-100" />}
-                        <a href={link.link} className="hover:underline">{link.name}</a>
+                        {link.icon && (
+                          <link.icon className="w-5 h-5 mr-2 text-primary-100" />
+                        )}
+                        <a href={link.link} className="hover:underline">
+                          {link.name}
+                        </a>
                       </li>
                     ))}
                   </ul>
@@ -71,7 +77,7 @@ const Footer = () => {
                 height={40}
                 className="rounded-full m-0"
               />
-              <TestFadeIn />
+              
               <p>Copyright. All rights reserved.</p>
             </div>
             <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
