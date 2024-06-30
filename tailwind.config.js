@@ -1,18 +1,107 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  plugins: [
+    // ...
+    require('@tailwindcss/forms'),
+  ],
   theme: {
+    fontSize: {
+      xs: ['12px', '16px'],
+      sm: ['14px', '20px'],
+      base: ['16px', '19.5px'],
+      lg: ['18px', '21.94px'],
+      xl: ['20px', '24.38px'],
+      '2xl': ['24px', '29.26px'],
+      '3xl': ['28px', '50px'],
+      '4xl': ['34px', '48px'],
+      '8xl': ['96px', '106px']
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        palanquin: ['Palanquin', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
+      colors: {
+        primary: {
+          500: "#f5f5f5",
+          100: "#FFA903",
+        },
+        dark: {
+          100: "#000000",
+          200: "#0F1117",
+          300: "#151821",
+          400: "#212734",
+          500: "#101012",
+        },
+        light: {
+          900: "#FFFFFF",
+          800: "#F4F6F8",
+          850: "#FDFDFD",
+          700: "#DCE3F1",
+          500: "#7B8EC8",
+          400: "#858EAD",
+        },
+        blue: {
+          500: "#13214E",
+          400: "#577CE5",
+          300: "#9BB1EF",
+          100: "#06143B",
+        },
+        "accent-yellow": "#FFA903",
+      },
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        spaceGrotesk: ["var(--font-spaceGrotesk)"],
+      },
+      boxShadow: {
+        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',
+        "light-100":
+          "0px 12px 20px 0px rgba(184, 184, 184, 0.03), 0px 6px 12px 0px rgba(184, 184, 184, 0.02), 0px 2px 4px 0px rgba(184, 184, 184, 0.03)",
+        "light-200": "10px 10px 20px 0px rgba(218, 213, 213, 0.10)",
+        "light-300": "-10px 10px 20px 0px rgba(218, 213, 213, 0.10)",
+        "dark-100": "0px 2px 10px 0px rgba(46, 52, 56, 0.10)",
+        "dark-200": "2px 0px 20px 0px rgba(39, 36, 36, 0.04)",
+      },
+      backgroundImage: {
+        "auth-dark": "url('/assets/images/auth-dark.png')",
+        "auth-light": "url('/assets/images/auth-light.png')",
+      },
+      screens: {
+        "wide": "1440px",
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 1s ease-in-out',
+      },
+    
+
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animate'),
+
+  ],
 };
+
+
+
+// require("tailwindcss-animate"), require("@tailwindcss/typography")
+
+
+// content: [
+//   "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+//   "./components/**/*.{js,ts,jsx,tsx,mdx}",
+//   "./app/**/*.{js,ts,jsx,tsx,mdx}",
+// ],
