@@ -55,6 +55,18 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+
+  .half-border::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%; /* Adjust the width as needed */
+    height: 6px; /* Adjust the thickness as needed */
+    background-color: #3b82f6; /* Tailwind's blue-500 */
+  }
+  
+  
 }
 
 
