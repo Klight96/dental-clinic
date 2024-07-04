@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import dynamic from 'next/dynamic';
+import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaGlobe } from 'react-icons/fa';
 
 // import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 // import L from "leaflet";
@@ -142,7 +143,7 @@ const contact = () => {
         </div>
         <div className="mt-16 w-full xl:px-24 px-8 grid grid-cols-2 max-sm:grid-cols-1 gap-6">
           <div className="flex flex-col gap-10 py-3 px-7 shadow-md rounded-md items-center bg-white space-x-2">
-            <span className="text-yellow-500">🌐</span>
+            <span className="text-yellow-500 text-2xl"> <FaGlobe /> </span>
             <a
               href="http://www.dentalcare.com"
               className="text-xl font-semibold"
@@ -151,13 +152,13 @@ const contact = () => {
             </a>
           </div>
           <div className="flex flex-col gap-10 py-3 px-7 shadow-md rounded-md items-center  bg-white space-x-2">
-            <span className="text-yellow-500">📞</span>
+            <span className="text-yellow-500 text-2xl"> <FaPhone /></span>
             <a href="tel:+77569023081" className="text-lg font-semibold">
               +77569023081
             </a>
           </div>
           <div className="flex flex-col gap-10 py-3 px-7 shadow-md rounded-md  items-center  bg-white space-x-2">
-            <span className="text-yellow-500">📧</span>
+            <span className="text-yellow-500 text-2xl"><FaEnvelope /></span>
             <a
               href="mailto:dentalcare@gmail.com"
               className="text-lg font-semibold"
@@ -166,7 +167,7 @@ const contact = () => {
             </a>
           </div>
           <div className="flex flex-col gap-10 py-3 px-7 shadow-md rounded-md items-center  bg-white  space-x-2">
-            <span className="text-yellow-500">📍</span>
+            <span className="text-yellow-500 text-2xl"><FaMapMarkerAlt /></span>
             <p className="text-lg font-semibold">
               South America vents road 8745
             </p>
