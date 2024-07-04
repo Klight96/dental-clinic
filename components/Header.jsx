@@ -8,7 +8,7 @@ const Header = ({ title, message, imageURL }) => {
           <h1 className="text-3xl font-bold ">{title}</h1>
           <p className="text-sm">{message}</p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center h-auto">
           <Image
             src={imageURL}
             alt="logo image"

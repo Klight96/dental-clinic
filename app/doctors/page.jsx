@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const DoctorCard = ({ imageSrc, name, specialty, description, services }) => {
   return (
@@ -14,26 +15,28 @@ const DoctorCard = ({ imageSrc, name, specialty, description, services }) => {
           className="rounded-full border-4 border-white"
         />
       </div>
-      <div className="mt-6">
+      <div className="mt-6 group-hover:text-white">
         <h2 className="text-xl font-semibold text-center">{name}</h2>
-        <p className="text-center text-gray-600">{specialty}</p>
-        <p className="text-gray-600 text-center mt-2 transition-opacity duration-300 ease-in-out group-hover:opacity-0 h-12 overflow-hidden group-hover:h-0">
+        <p className="text-center mt-2 text-md text-gray-600 group-hover:text-white">{specialty}</p>
+        <p className="text-gray-600 text-center mt-2  duration-300 ease-in-out group-hover:hidden group-hover:text-white">
           {description}
         </p>
-        <div className="absolute inset-0 p-6 flex flex-col items-center justify-center bg-white bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+        <div className=" group-hover:block hidden mt-4 gap-4 duration-300 ease-in-out">
           {services.map((service, index) => (
-            <p key={index} className="text-blue-500 text-center">
+            <p key={index} className="text-center mt-1 text-white ">
               {service}
             </p>
           ))}
         </div>
         <div className="mt-4 flex justify-center">
-          <button className="border-2 border-primary-100 px-4 py-2 rounded-lg transition-colors duration-300 ease-in-out group-hover:bg-blue-400">
+         <Link href="/services">
+         <button className="border-2 border-primary-100 group-hover:border-white px-4 py-2 rounded-lg transition-colors duration-300 ease-in-out group-hover:bg-blue-400">
             <span className="block group-hover:hidden">
               Book An Appointment
             </span>
             <span className="hidden group-hover:block">Learn more</span>
           </button>
+         </Link>
         </div>
       </div>
     </div>
@@ -178,3 +181,7 @@ const doctors = () => {
 };
 
 export default doctors;
+
+
+
+// Z@LwnJNQ62G2Khn

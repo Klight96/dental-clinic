@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+
+
+
 import { Nav, Footer } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -20,3 +23,8 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+
+
+// mapbox pass: h2$eThNkqW+J?2K 

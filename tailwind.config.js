@@ -105,3 +105,10 @@ module.exports = {
 //   "./components/**/*.{js,ts,jsx,tsx,mdx}",
 //   "./app/**/*.{js,ts,jsx,tsx,mdx}",
 // ],
+
+// import { clsx } from "clsx"
+// import { twMerge } from "tailwind-merge"
+
+// export function cn(...inputs) {
+//   return twMerge(clsx(inputs))
+// }
