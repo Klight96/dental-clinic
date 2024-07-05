@@ -141,7 +141,7 @@ const contact = () => {
             </button>
           </form>
         </div>
-        <div className="mt-16 w-full xl:px-24 px-8 grid grid-cols-2 max-sm:grid-cols-1 gap-6">
+        <div className="mt-16 w-full xl:w-3/4 px-8 grid grid-cols-2 max-sm:grid-cols-1 gap-6">
           <div className="flex flex-col gap-10 py-3 px-7 shadow-md rounded-md items-center bg-white space-x-2">
             <span className="text-yellow-500 text-2xl"> <FaGlobe /> </span>
             <a
