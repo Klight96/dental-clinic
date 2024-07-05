@@ -134,7 +134,7 @@ const contact = () => {
               className="w-full p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
             ></textarea>
             <div className="flex items-center justify-center">
-            <Link href="/contact">
+            <Link href="/appointment">
             <button
               type="submit"
               className="px-5  py-3 bg-blue-400 text-white  font-semibold rounded-md hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
