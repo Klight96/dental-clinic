@@ -3,7 +3,7 @@
 import Header from "@/components/Header";
 import dynamic from 'next/dynamic';
 import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaGlobe } from 'react-icons/fa';
-
+import Link from "next/link";
 // import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 // import L from "leaflet";
 
