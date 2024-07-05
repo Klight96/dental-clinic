@@ -133,12 +133,14 @@ const contact = () => {
               placeholder="Description"
               className="w-full p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
             ></textarea>
+            <div className="flex items-center justify-center">
             <button
               type="submit"
-              className="w-1/3 py-3 bg-blue-400 text-white  font-semibold rounded-md hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="px-5  py-3 bg-blue-400 text-white  font-semibold rounded-md hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
               Send message
             </button>
+            </div>
           </form>
         </div>
         <div className="mt-16 w-full xl:w-3/4 px-8 grid grid-cols-2 max-sm:grid-cols-1 gap-6">
