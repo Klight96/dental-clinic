@@ -75,7 +75,7 @@ const treatments = {
 
 
 const TreatmentCard = ({ image, name, description }) => (
-  <div className="w-[300px] rounded-xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out group hover:scale-105">
+  <div className="w-[300px] bg-white rounded-xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out group hover:scale-105">
     <Image src={image} alt={name} className="w-full" width={300} height={280}/>
     <div className=" text-center ">
       <div className="font-bold text-md my-4">{name}</div>
@@ -83,8 +83,8 @@ const TreatmentCard = ({ image, name, description }) => (
         {description}
       </p>
     </div>
-    <div className="px-6 text-center pt-4 pb-2">
-      <button className="bg-blue-400 hover:bg-primary-100 text-white hover:text-black font-bold py-2 px-4 rounded transition-colors duration-300">
+    <div className="text-center pt-4 pb-2">
+      <button className="bg-blue-400 hover:bg-primary-100 text-white hover:text-black py-2 px-4 rounded-full transition-colors duration-300">
         Book now
       </button>
     </div>
