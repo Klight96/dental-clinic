@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 
 import Image from 'next/image';
+import Link from "next/link";
 
 const treatments = {
   "General Dentistry": [
@@ -84,9 +85,12 @@ const TreatmentCard = ({ image, name, description }) => (
       </p>
     </div>
     <div className="text-center pt-4 pb-2">
-      <button className="bg-blue-400 hover:bg-primary-100 text-white hover:text-black py-2 px-4 rounded-full transition-colors duration-300">
+      
+    <Link href="/appointment">
+    <button className="bg-blue-400 hover:bg-primary-100 text-white hover:text-black py-2 px-4 rounded-full transition-colors duration-300">
         Book now
       </button>
+    </Link>
     </div>
   </div>
 );
