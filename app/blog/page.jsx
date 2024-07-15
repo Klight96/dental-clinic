@@ -151,7 +151,7 @@ const Sidebar = () => {
           <li className="mb-4 mt-8">
             <a href="#" className="flex items-center">
               <img
-                src="/images/blog5.png"
+                src="/images/blog12.png"
                 alt=""
                 className="w-36 h-24 rounded-lg mr-4"
               />
@@ -181,7 +181,7 @@ const Sidebar = () => {
           <li className="mb-4 mt-4">
             <a href="#" className="flex items-center">
               <img
-                src="images/blog5.png"
+                src="images/blog11.png"
                 alt=""
                 className="w-36 h-24 rounded-lg mr-4"
               />
@@ -196,7 +196,7 @@ const Sidebar = () => {
           <li className="mb-4 mt-4">
             <a href="#" className="flex items-center">
               <img
-                src="images/blog5.png"
+                src="images/blog10.png"
                 alt=""
                 className="w-36 h-24 rounded-lg mr-4"
               />

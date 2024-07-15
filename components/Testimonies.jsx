@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaMessage } from "react-icons/fa6";
 
 const Testimonies = () => {
   return (
@@ -58,7 +59,7 @@ const Testimonies = () => {
               to differentiate your brand is through improving costumer
               experience
             </h1>
-            <div className="mt-3 flex justify-center items-center">icons</div>
+            <div className="mt-3 flex justify-center items-center"><FaMessage /></div>
           </div>
         </div>
       </div>

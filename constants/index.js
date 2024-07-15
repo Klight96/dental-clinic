@@ -23,6 +23,12 @@ export const statistics = [
   { value: "300k", label: "Online Appointment" },
 ];
 
+export const statisticsx = [
+  { value: "1000", label: "Happy clients", imageURL: "/images/Vector.png" },
+  { value: "15", label: "Years of Experiences", imageURL: "/images/award.png" },
+  { value: "300k", label: "Online Appointment", imageURL: "/images/Group.png" },
+];
+
 // export const products = [
 //     {
 //         imgURL: shoe4,
