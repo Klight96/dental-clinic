@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
 import { FaSearch, FaAward, FaBlog, FaNewspaper } from "react-icons/fa";
+import { GoPerson } from "react-icons/go";
+import { FaRegComments } from "react-icons/fa6";
 
 const posts = [
   {
@@ -98,8 +100,15 @@ const PostCard = ({ post }) => {
         <h3 className=" font-semibold mb-2">{post.title}</h3>
         <p className="text-gray-700 mb-4">{post.description}</p>
         <div className="flex justify-between items-center">
-          <p className="text-blue-500">{post.author}</p>
-          <p className="text-blue-500">{post.comments}</p>
+          
+          <div className="flex justify-start items-center gap-1 text-blue-400">
+            <GoPerson />
+            <p>{post.author}</p>
+          </div>
+          <div className="flex justify-start items-center gap-1 text-blue-400">
+          <FaRegComments />
+          <p >{post.comments}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -156,8 +165,8 @@ const Sidebar = () => {
                 className="w-36 h-24 rounded-lg mr-4"
               />
               <div>
-                <p className="text-gray-600">May 18, 2024</p>
-                <p className="text-blue-400 hover:underline">
+                <p className="text-blue-400">May 18, 2024</p>
+                <p className="text-gray-600 hover:underline">
                   May dental office need a blog area care to ailing...
                 </p>
               </div>
@@ -171,8 +180,8 @@ const Sidebar = () => {
                 className="w-36 h-24 rounded-lg mr-4"
               />
               <div>
-                <p className="text-gray-600">May 18, 2024</p>
-                <p className="text-blue-400 hover:underline">
+                <p className=" text-blue-400">May 18, 2024</p>
+                <p className="text-gray-600 hover:underline">
                   May dental office need a blog area care to ailing...
                 </p>
               </div>
@@ -186,8 +195,8 @@ const Sidebar = () => {
                 className="w-36 h-24 rounded-lg mr-4"
               />
               <div>
-                <p className="text-gray-600">May 18, 2024</p>
-                <p className="text-blue-400 hover:underline">
+                <p className="text-blue-400">May 18, 2024</p>
+                <p className="text-gray-600 hover:underline">
                   May dental office need a blog area care to ailing...
                 </p>
               </div>
@@ -201,8 +210,8 @@ const Sidebar = () => {
                 className="w-36 h-24 rounded-lg mr-4"
               />
               <div>
-                <p className="text-gray-600">May 18, 2024</p>
-                <p className="text-blue-400 hover:underline">
+                <p className="text-blue-400">May 18, 2024</p>
+                <p className="text-gray-600 hover:underline">
                   May dental office need a blog area care to ailing...
                 </p>
               </div>

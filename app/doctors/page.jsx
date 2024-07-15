@@ -84,9 +84,9 @@ const doctorList = [
     ],
   },
   {
-    imageSrc: "/images/doctor3.png",
-    name: "Dr. David Adams",
-    specialty: "GENERAL DENTISTRY",
+    imageSrc: "/images/doctor5.png",
+    name: "Dr. Gabrella jones",
+    specialty: "COSMETRIC DENTISTRY",
     description:
       "Cosmetic dentistry is a fascinating field that blends artistry with dental science to enhance smiles and boost confidence. Whether you're considering teeth whitening, dental implants, or other procedures",
     services: [
@@ -97,9 +97,9 @@ const doctorList = [
     ],
   },
   {
-    imageSrc: "/images/doctor3.png",
-    name: "Dr. David Adams",
-    specialty: "GENERAL DENTISTRY",
+    imageSrc: "/images/doctor6.png",
+    name: "Dr. Ben John",
+    specialty: "COSMETIC DENTISTRY",
     description:
       "Cosmetic dentistry is a fascinating field that blends artistry with dental science to enhance smiles and boost confidence. Whether you're considering teeth whitening, dental implants, or other procedures",
     services: [
@@ -110,9 +110,9 @@ const doctorList = [
     ],
   },
   {
-    imageSrc: "/images/doctor3.png",
-    name: "Dr. David Adams",
-    specialty: "GENERAL DENTISTRY",
+    imageSrc: "/images/doctor7.png",
+    name: "Dr. Eliza Zake",
+    specialty: "COSMETIC DENTISTRY",
     description:
       "Cosmetic dentistry is a fascinating field that blends artistry with dental science to enhance smiles and boost confidence. Whether you're considering teeth whitening, dental implants, or other procedures",
     services: [
@@ -123,9 +123,9 @@ const doctorList = [
     ],
   },
   {
-    imageSrc: "/images/doctor3.png",
-    name: "Dr. David Adams",
-    specialty: "GENERAL DENTISTRY",
+    imageSrc: "/images/doctor8.png",
+    name: "Dr. Ben White",
+    specialty: "DENTAL IMPLANT",
     description:
       "Cosmetic dentistry is a fascinating field that blends artistry with dental science to enhance smiles and boost confidence. Whether you're considering teeth whitening, dental implants, or other procedures",
     services: [
@@ -136,9 +136,9 @@ const doctorList = [
     ],
   },
   {
-    imageSrc: "/images/doctor3.png",
-    name: "Dr. David Adams",
-    specialty: "GENERAL DENTISTRY",
+    imageSrc: "/images/doctor9.png",
+    name: "Dr. Anna Coal",
+    specialty: "DENTAL IMPLANT",
     description:
       "Cosmetic dentistry is a fascinating field that blends artistry with dental science to enhance smiles and boost confidence. Whether you're considering teeth whitening, dental implants, or other procedures",
     services: [
@@ -149,9 +149,9 @@ const doctorList = [
     ],
   },
   {
-    imageSrc: "/images/doctor3.png",
-    name: "Dr. David Adams",
-    specialty: "GENERAL DENTISTRY",
+    imageSrc: "/images/doctor0.png",
+    name: "Dr. Sara Bake",
+    specialty: "DENTAL IMPLANT",
     description:
       "Cosmetic dentistry is a fascinating field that blends artistry with dental science to enhance smiles and boost confidence. Whether you're considering teeth whitening, dental implants, or other procedures",
     services: [
